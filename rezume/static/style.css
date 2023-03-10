@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI';
+}
+h1{
+    margin-left: 10px;font-family: 'Segoe UI';
+}
+
+body{
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-position-x:center;
+}
+/*______________head______________*/
+#head{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 15%;
+    display: block;
+    top: 1%;
+    left:auto;
+    right: auto;
+    background: #1f1c1cd1;
+}
+@font-face {
+    font-family: 'TTDrugs-Bold';
+    src: url('TTDrugs-Bold.ttf');
+}
+#head_text{
+    text-align: center;
+
+}
+#text{
+    font-family: 'TTDrugs-Bold';
+    color: red;
+    font-size: 400%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#href_buttonn{
+    color: white;
+    font-family: 'Segoe UI';
+    display:inline; margin: 0 auto;
+    margin-top: 10%; 
+}
+.hr_butn{
+    padding: 2%;
+}
+/*______________body______________*/
+#body{
+    width: 80%;
+    background-color: #262626;
+    display: table; margin: 0 auto;
+    margin-top: 12%;
+    opacity: 95%;
+    padding: 20px;
+    min-height: 1200px;
+}
+#info{
+    width: 50%;
+    margin-left: 12%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.info_tab{
+    margin-top: 10px;
+    height: 180px;
+    width: 100%;
+    background-color: #424448;
+    display: flex;
+}
+.info_text-tab{
+    height: 80px;
+    width: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+}
+.info_img{
+    height: 120px;
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.info-text{
+    font-family: 'Segoe UI';
+    color: white;
+}
+.more_btn{
+    background-color: #F08080;
+    transition: 0.3s;
+    width: 100px;
+    height: 25px;
+    margin: auto;
+    margin-bottom: 2.5%;
+    border:none;
+    border-radius: 5px;
+}
+.more_btn:hover{
+    background-color: #8B0000;
+}
+.mort_btn:active{
+    background-color: black;
+}
+/*user_menu*/
+#user_menu{
+    /* margin-top: 20px; */
+    width: 15%;
+    right: 20%;
+    height: 300px;
+    position: absolute;
+    margin-top: 10px;
+}
+.account_tab{
+    background-color: #424448;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.account_tab_prof{
+    background-color: #424448;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.user_photo_tab{
+    width: 80px;
+    height: 80px;
+    border-radius: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+    overflow: hidden;
+}
+#user_photo{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border-radius: 360px;
+    margin-left: -25%;
+    margin-top: -30%;
+}
+#user_photo_anon{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 360px;
+    margin: auto;
+}
+.account_info{
+    width: 100%;
+    height: 150px;
+}
+.acc_text{
+    font-family: 'Segoe UI';
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+}
+#leave{
+    color: darkred;
+}
+.acc_icons{
+    margin-left: 0;
+    width: 15px;
+    height: 15px;
+}
+
+#topup_acc_btn, #download_btn{
+    background-color: #F08080;
+    font-family: 'Segoe UI';
+    width: 70%;
+    height: 35px;
+    display: block; margin-left: auto; margin-right: auto;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#topup_acc_btn_prof{
+    background-color: #F08080;
+    font-family: 'Segoe UI';
+    width: 70%;
+    height: 35px;
+    display: block; margin-left: auto; margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+#topup_acc_btn2_prof{
+    background-color: #F08080;
+    font-family: 'Segoe UI';
+    width: 70%;
+    height: 35px;
+    display: block; margin-left: auto; margin-right: auto;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+#download_btn{
+    width: 100%;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+#topup_acc_btn:hover, #download_btn:hover{
+    background-color: #8B0000;
+}
+#topup_acc_btn:active, #download_btn:active{
+    background-color: black;
+}
+#dwl_btn_ico{
+    position: absolute;
+    display: block;
+    margin-left: 10px;
+    margin-top: -3px;
+    width: 25px; height: 25px;
+}
+/*lower*/
+#lower{
+    display: block;margin-top: 100px;
+    width: 100%;
+    height: 210px;
+    background-color: black;
+    padding: 10px;
+}
+
+#ap{
+    position: absolute;
+    display:inline;margin-top: 20px;
+    width: 20%;
+    
+}
+.a{
+    padding: 10px;
+    font-family: 'Segoe UI';
+    font-size: small;
+}
+#made_by{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 20px;
+}
+#aura{
+    top: 170px;
+}
+
+/* donate */
+#donate{
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.donate_tab{
+    margin-top: 10px;
+    height: 180px;
+    width: 100%;
+    background-color: #424448;
+    display: table;
+    padding: 10px;
+}
+.donate_text-tab{
+    height: 80px;
+    width: 60%;
+    margin-top: auto;
+    overflow: hidden;
+}
+.donate_img{
+    max-height: 360px;
+    max-width: 600px;
+} 
+.donate-text{
+    font-family: 'Segoe UI';
+    color: white;
+}
+.donate_btn{
+    background-color: #F08080;
+    transition: 0.3s;
+    width: 150px;
+    height: 25px;
+    border:none;
+    border-radius: 5px;
+}
+.buy_btn:hover{
+    background-color: #8B0000;
+}
+.buy_btn:active{
+    background-color: black;
+}
+
+/* admin */
+.admin-form{
+    border: #FFFFFF;
+    border-style: double;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.adm-main{
+    margin: auto;
+    width: 350px;
+    border: #FFFFFF;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 10px;
+}
+.adm-buts-label{
+    margin: auto;
+}
+.a86btn{
+    height: 86px;
+}
+
+
+
+
+
+#login{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.tablecont{
+    color: white;
+}
+
+.row{
+    margin-top: 10px;
+}
